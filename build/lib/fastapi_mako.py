@@ -63,11 +63,9 @@ class FastAPIMako:
             paths = [pkg_path]
         else:
             paths = [os.path.join(get_root_path(app.__name__), 'templates')]
-	kw = {
-		'input_encoding': 'utf-8'
-	}
-        setattr(app, app_key_name, TemplateLookup(directories=paths, **kw))
-	
+
+        setattr(app, app_key_name, TemplateLookup(directories=paths))
+
         return getattr(app, app_key_name)
     
     @staticmethod

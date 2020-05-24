@@ -1,0 +1,9 @@
+README.md
+fastapi_mako.py
+setup.py
+FastAPI_Mako.egg-info/PKG-INFO
+FastAPI_Mako.egg-info/SOURCES.txt
+FastAPI_Mako.egg-info/dependency_links.txt
+FastAPI_Mako.egg-info/not-zip-safe
+FastAPI_Mako.egg-info/requires.txt
+FastAPI_Mako.egg-info/top_level.txt
